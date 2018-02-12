@@ -1,0 +1,428 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mysq",
+				"mysql_query"
+			],
+			[
+				"emai",
+				"email_list"
+			],
+			[
+				"de",
+				"delete_id"
+			],
+			[
+				"ema",
+				"email_list"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"my",
+				"mysqli_fetch"
+			],
+			[
+				"nex",
+				"next_customer"
+			],
+			[
+				"mys",
+				"mysqli_fetch"
+			],
+			[
+				"o",
+				"other"
+			],
+			[
+				"fan",
+				"fang_spotted"
+			],
+			[
+				"alie",
+				"alien_description"
+			],
+			[
+				"wh",
+				"when_it_happened"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"fir",
+				"first_name"
+			],
+			[
+				"wha",
+				"what_they_did"
+			],
+			[
+				"how_",
+				"how_many"
+			],
+			[
+				"fa",
+				"fang_spotted"
+			],
+			[
+				"ho",
+				"how_long"
+			],
+			[
+				"whe",
+				"when_it_happened"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"hour",
+				"hourDegree"
+			],
+			[
+				"tra",
+				"transform\t = '' Style CSS"
+			],
+			[
+				"hou",
+				"hour-hand"
+			],
+			[
+				"sec",
+				"second-hand"
+			],
+			[
+				"get",
+				"getSeconds\t(): int Date"
+			],
+			[
+				"func",
+				"function_with_name"
+			],
+			[
+				"e",
+				"ease-in-out"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"getm",
+				"getMinutes\t(): int Date"
+			],
+			[
+				"secon",
+				"secondsDegrees"
+			],
+			[
+				"sty",
+				"style\t Style CSS"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"transfo",
+				"transform-origin"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"s",
+				"scaleX()"
+			],
+			[
+				"sca",
+				"scale3d()"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"play",
+				"playSound"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"h",
+				"h1\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"git ",
+				"Git: Pull"
+			],
+			[
+				"bra",
+				"git: branch"
+			],
+			[
+				"stat",
+				"git: status"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"brac",
+				"git: branch"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch05/initial/guitarwars/._index.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/initial/makemeelvis/sendemail.html",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/initial/makemeelvis/removeemail.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/initial/makemeelvis/addemail.html",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/initial/makemeelvis/sendmail.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/initial/makemeelvis/removeemail.html",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/initial/makemeelvis/._removeemail.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/final/makemeelvis/addemail.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/initial/makemeelvis/addemail.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/PHP/ch03/initial/makemeelvis/sendemail.php",
+		"/Users/stmacbookpro/Desktop/Head First PHP/ch03/initial/makemeelvis/addemail.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/Head First PHP/ch03/initial/makemeelvis/addemail.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/Head First PHP/ch03/initial/makemeelvis/addemail.html",
+		"/Users/stmacbookpro/Desktop/Head First PHP/ch03/initial/makemeelvis/removeemail.html",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/etc/php.ini",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/Head First PHP/ch01/initial/aliens/._report.php",
+		"/Users/stmacbookpro/Desktop/Head First PHP/ch01/initial/aliens/style.css",
+		"/Users/stmacbookpro/Desktop/Head First PHP/ch01/initial/aliens/report.php",
+		"/Users/stmacbookpro/Desktop/Head First PHP/ch01/initial/aliens/report.html",
+		"/Users/stmacbookpro/Desktop/JavaScript30/JavaScript30/02 - JS and CSS Clock/index-FINISHED.html",
+		"/Users/stmacbookpro/Desktop/JavaScript30/JavaScript30/02 - JS and CSS Clock/anantoJSClock.html",
+		"/Users/stmacbookpro/Desktop/JavaScript30/JavaScript30/02 - JS and CSS Clock/index-START.html",
+		"/Users/stmacbookpro/Desktop/JavaScript30/JavaScript30/01 - JavaScript Drum Kit/index-START.html",
+		"/Users/stmacbookpro/Desktop/Ananto/style.css",
+		"/Users/stmacbookpro/Desktop/Ananto/index.html",
+		"/Users/stmacbookpro/Desktop/JavaScript30/JavaScript30/01 - JavaScript Drum Kit/style.css",
+		"/Users/stmacbookpro/Desktop/JavaScript30/JavaScript30/01 - JavaScript Drum Kit/index-FINISHED.html",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/website1/wordpress/wp-content/index.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/website1/wordpress/wp-config.php",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/dir2/App2.js",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/dir1/App1.js",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/log.txt",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/app.js",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/readme.md",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/index.html",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/.gitignore",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/login.html",
+		"/Users/stmacbookpro/Desktop/Ananto/GitPractice/asdasdas",
+		"/Users/stmacbookpro/Sites/devdesktop/drupal-7.56/sites/all/themes/bootstrap/js/bootstrap.js",
+		"/Users/stmacbookpro/Downloads/selenium-java-3.8.1/client-combined-3.8.1.jar",
+		"/Users/stmacbookpro/Sites/devdesktop/drupal-7.56/scripts/run-tests.sh",
+		"/Users/stmacbookpro/Sites/devdesktop/drupal-7.56/misc/ui/jquery.ui.core.min.js",
+		"/Users/stmacbookpro/Desktop/Ananto/drupal-7.56/misc/ui/jquery.ui.core.min.js",
+		"/Users/stmacbookpro/Sites/devdesktop/drupal-7.56/sites/sites.php",
+		"/Users/stmacbookpro/Sites/devdesktop/drupal-7.56/sites/default/settings.php",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/st/includes/menu.inc",
+		"/Users/stmacbookpro/.bitnami/stackman/machines/xampp/volumes/root/htdocs/myapp/hello.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
