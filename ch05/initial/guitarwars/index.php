@@ -17,7 +17,7 @@
   require_once('connect.php');
 
   // Retrieve the score data from MySQL
-  $query = "SELECT * FROM guitarwars ORDER by score DESC, date ASC";
+  $query = "SELECT * FROM guitarwars WHERE approved = 1 ORDER by score DESC, date ASC";
   $data = mysqli_query($dbc, $query);
 
   // Loop through the array of score data, formatting it as HTML 

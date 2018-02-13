@@ -13,12 +13,13 @@
 define('GW_UPLOADPATH', 'images/');
 
   if (isset($_POST['submit'])) {
+    require_once('connect.php');
     // Grab the score data from the POST
-    $name = $_POST['name'];
-    $score = $_POST['score'];
-    $file = $_FILES['screenshot'];
+    $name = mysqli_real_escape_string($dbc,trim($_POST['name'])); 
+    $score = mysqli_real_escape_string($dbc, trim($_POST['score'])); 
+    $file =  $_FILES['screenshot'];
 
-    $fileName = $_FILES['screenshot']['name'];
+    $fileName = mysqli_real_escape_string($dbc,trim($_FILES['screenshot']['name']));  
     $filetmp = $_FILES['screenshot']['tmp_name'];
     $fileSize = $_FILES['screenshot']['size'];
     $fileError = $_FILES['screenshot']['error'];
@@ -27,7 +28,7 @@ define('GW_UPLOADPATH', 'images/');
    
     
 
-    if (!empty($name) && !empty($score) && !empty($file)) {
+    if (!empty($name) && is_numeric($score) && !empty($file)) {
       // Connect to the database
       if(($fileType == 'image/gif') || ($fileType == 'image/jpeg') || ($fileType == 'image/pjpeg') || ($fileType == 'image/png') && ($fileSize > 0) && ($fileSize <= 1000000)){ 
         if ($fileError == 0) {
@@ -36,10 +37,10 @@ define('GW_UPLOADPATH', 'images/');
       $fileDestination = 'images/'.$fileName;
       move_uploaded_file($filetmp, $fileDestination);
 
-      require_once('connect.php');
+     
 
       // Write the data to the database
-      $query = "INSERT INTO guitarwars VALUES (0, NOW(), '$name', '$score', '$fileName')";
+      $query = "INSERT INTO guitarwars (date,name,score,screenshot) VALUES (NOW(), '$name', '$score', '$fileName')";
       mysqli_query($dbc, $query);
 
       // Confirm success with the user
@@ -54,7 +55,7 @@ define('GW_UPLOADPATH', 'images/');
       // Clear the score data to clear the form
       $name = "";
       $score = "";
-      $shot = "";
+      $fileName = "";
 
       mysqli_close($dbc);
     }else{
