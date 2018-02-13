@@ -1,5 +1,6 @@
 <?php
 
+require_once('authorize.php');
 require_once('appvars.php');
 
 if(isset($_GET['id']) && isset($_GET['date']) && isset($_GET['name']) && isset($_GET['score']) && isset($_GET['screenshot'])){

@@ -62,10 +62,7 @@ define('GW_UPLOADPATH', 'images/');
     }
     }else{
       echo "File Type not supported or too big";
-    }
-    
-      
-    
+    } 
   } else
   {
     echo "There was a problem uploading the file";
