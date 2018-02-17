@@ -1,14 +1,4 @@
-<?php
-  session_start();
 
-  // If the session vars aren't set, try to set them with a cookie
-  if (!isset($_SESSION['user_id'])) {
-    if (isset($_COOKIE['user_id']) && isset($_COOKIE['username'])) {
-      $_SESSION['user_id'] = $_COOKIE['user_id'];
-      $_SESSION['username'] = $_COOKIE['username'];
-    }
-  }
-?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -24,7 +14,7 @@
 <?php
   require_once('appvars.php');
   require_once('connectvars.php');
-  
+  session_start();
   // Generate the navigation menu
   if (isset($_SESSION['username'])) {
     echo('<p class="login">You are logged in as ' . $_SESSION['username'] . '.</p>');

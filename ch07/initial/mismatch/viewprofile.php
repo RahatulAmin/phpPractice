@@ -12,7 +12,7 @@
 <?php
   require_once('appvars.php');
   require_once('connectvars.php');
-  require_once('login.php');
+  session_start();
   // Connect to the database
   $dbc = mysqli_connect('localhost', 'root', '', 'mismatchdb');
 
