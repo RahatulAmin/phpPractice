@@ -18,7 +18,7 @@
   echo '&#10084; <a href="editprofile.php">Edit Profile</a><br />';
 
   // Connect to the database 
-  $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
+  $dbc = mysqli_connect('localhost', 'root', '','mismatchdb'); 
 
   // Retrieve the user data from MySQL
   $query = "SELECT user_id, first_name, picture FROM mismatch_user WHERE first_name IS NOT NULL ORDER BY join_date DESC LIMIT 5";
