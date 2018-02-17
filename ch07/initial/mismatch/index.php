@@ -14,9 +14,15 @@
   require_once('connectvars.php');
 
   // Generate the navigation menu
-  echo '&#10084; <a href="viewprofile.php">View Profile</a><br />';
-  echo '&#10084; <a href="editprofile.php">Edit Profile</a><br />';
-
+  if (isset($_COOKIE['username'])) {
+    echo('<p class="login">You are logged in as ' . $_COOKIE['username'] . '.</p>');
+    echo '&#10084; <a href="viewprofile.php">View Profile</a><br />';
+    echo '&#10084; <a href="editprofile.php">Edit Profile</a><br />';
+     echo '&#10084; <a href="logout.php">Logout</a><br />';
+  } else{
+  echo '&#10084; <a href="login.php">Login</a><br />';
+  echo '&#10084; <a href="signup.php">Sign UP</a><br />';
+ }
   // Connect to the database 
   $dbc = mysqli_connect('localhost', 'root', '','mismatchdb'); 
 
