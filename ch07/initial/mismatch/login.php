@@ -1,8 +1,9 @@
 <?php
 require_once('connectvars.php');
 
+session_start();
 $error_msg="";
-if(!isset($_COOKIE['username'])){
+if(!isset($_SESSION['user_id'])){
 	if(isset($_POST['submit'])){
 		$dbc = mysqli_connect('localhost', 'root','','mismatchdb');
 
@@ -18,9 +19,9 @@ if(!isset($_COOKIE['username'])){
 
 		if (mysqli_num_rows($data) == 1) {
 			$row = mysqli_fetch_array($data);
-			setcookie('user_id',$row['user_id']);
-			setcookie('username', $row['username']);
-			$home_url = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . '/index.php';
+			$_SESSION['user_id'] = $row['user_id'];
+			$_SESSION['username'] = $row['username'];
+			$home_url = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . '/index.php?<?php echo SID; ?>';
  			header('Location: ' . $home_url);
 		}else{
 			$error_msg = 'Sorry, you must enter a valid username and password to log in.';
@@ -45,7 +46,7 @@ if(!isset($_COOKIE['username'])){
 
 <?php
  // If the cookie is empty, show any error message and the log-in form; otherwise confirm the log-in
- if (empty($_COOKIE['user_id'])) {
+ if (empty($_SESSION['user_id'])) {
  echo '<p class="error">' . $error_msg . '</p>';
 ?>
  <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
@@ -63,8 +64,10 @@ if(!isset($_COOKIE['username'])){
  }
  else {
  // Confirm the successful log in
- echo('<p class="login">You are logged in as ' . $_COOKIE['username'] . '.</p>');
+ echo('<p class="login">You are logged in as ' . $_SESSION['username'] . '.</p>');
  }
+
+
 ?>
 </body>
 </html>

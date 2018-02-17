@@ -15,7 +15,7 @@
   require_once('login.php');
 
   // Connect to the database
-  $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+  $dbc = mysqli_connect('localhost', 'root', '', 'mismatchdb');
 
   if (isset($_POST['submit'])) {
     // Grab the profile data from the POST
