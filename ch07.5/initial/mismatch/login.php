@@ -11,7 +11,7 @@
   if (!isset($_SESSION['user_id'])) {
     if (isset($_POST['submit'])) {
       // Connect to the database
-      $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+      $dbc = mysqli_connect('localhost', 'root', '', 'mismatchdb'); 
 
       // Grab the user-entered log-in data
       $user_username = mysqli_real_escape_string($dbc, trim($_POST['username']));
